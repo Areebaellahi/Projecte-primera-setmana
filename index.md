@@ -16,6 +16,17 @@
 <p>Després posem:</p>
 <p>docker run \-p 443:443 \-e TZ=Europe/Andorra \-v volum_mail_server:/data \--name "areebaellahi.io" \-h "areebaellahi.io" \-t analogic/poste.io</p>
 <p><img src="https://raw.githubusercontent.com/Areebaellahi/FOTOS/main/5.png" alt="Cat"></p>
+<h2>Instalar Docker en la maquina inte:</h2>
+<p>-sudo apt-get update</p>
+<p>-sudo apt-get install apt-transport-https ca-certificates curl gnupg2 software-properties-common</p>
+<p>-curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -</p>
+<p>-sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/debian buster stable"</p>
+<p>-sudo apt-get update</p>
+<p>-sudo apt-get install docker-ce docker-ce-cli containerd.io</p>
+<p>Ara ja tenim instalat el docker per comprovar el estat posem:</p>
+<p>-sudo systemctl status docker</p>
+<p><img src="" alt="Cat"></p>
+<p>Un altre manera de provar si tenim instalat bé el docker posem docker run hello-word:</p>
 <h2>Generació dels certificats:</h2>
 <p>He decidit crear el certificat amb mkcert.</p>
 <p>Per fer lo posem:</p>
