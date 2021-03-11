@@ -37,10 +37,12 @@
 <p>El segon pas es obrir el Firefox amb inte, posem en el terminal base:</p>
 <p>-ssh -X user1@inte firefox</p>
 <p>Aquesta comanda ens portarà a firefox com inte/p>
+<p><img src="https://raw.githubusercontent.com/Areebaellahi/FOTOS/main/firefox%20inte.png" alt="Cat"></p>
 <p>Ara en el firefox de inte posem el link del server/p>
 <p>Ens portarà a una finestra on apareix la configuració de poste.io/p>
-<p> He posat el Mailserver hostname "areeba.io" i en el administrator email "admin@areeba.com"./p>
-  
+<p>He posat en mailserver hostname "areeba.io" i en administrator email "admin@areeba.com"./p>
+<p><img src="https://raw.githubusercontent.com/Areebaellahi/FOTOS/main/mailserver.png" alt="Cat"></p>
+<p>Una vegada tot configurat donem a save changes./p>
 <h2>Generació dels certificats:</h2>
 <p>He decidit crear el certificat amb mkcert.</p>
 <p>Per fer lo posem:</p>
