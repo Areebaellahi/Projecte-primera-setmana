@@ -25,8 +25,22 @@
 <p>-sudo apt-get install docker-ce docker-ce-cli containerd.io</p>
 <p>Ara ja tenim instalat el docker per comprovar el estat posem:</p>
 <p>-sudo systemctl status docker</p>
-<p><img src="" alt="Cat"></p>
+<p><img src="https://raw.githubusercontent.com/Areebaellahi/FOTOS/main/docker%20run%202.png" alt="Cat"></p>
 <p>Un altre manera de provar si tenim instalat bé el docker posem docker run hello-word:</p>
+<h2>Creació del server:</h2>
+<p>-docker run areeba</p>
+<p>-docker volume create areeba</p>
+<p><img src="https://raw.githubusercontent.com/Areebaellahi/FOTOS/main/docker%20run1.1.png" alt="Cat"></p>
+<p>-docker run -p 443:443 -e TZ=Europe/Andorra -v areeba:/data --name "areeba" -h "areeba.io" -t analogic/poste.io</p>
+<p><img src="https://raw.githubusercontent.com/Areebaellahi/FOTOS/main/docker%20run%2001.png" alt="Cat"></p>
+<p>Ara tenim creat un server que es diu areeba.io</p>
+<p>El segon pas es obrir el Firefox amb inte, posem en el terminal base:</p>
+<p>-ssh -X user1@inte firefox</p>
+<p>Aquesta comanda ens portarà a firefox com inte/p>
+<p>Ara en el firefox de inte posem el link del server/p>
+<p>Ens portarà a una finestra on apareix la configuració de poste.io/p>
+<p> He posat el Mailserver hostname "areeba.io" i en el administrator email "admin@areeba.com"./p>
+  
 <h2>Generació dels certificats:</h2>
 <p>He decidit crear el certificat amb mkcert.</p>
 <p>Per fer lo posem:</p>
