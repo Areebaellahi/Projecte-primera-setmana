@@ -43,12 +43,5 @@
 <p>He posat en mailserver hostname "areeba.io" i en administrator email "admin@areeba.com"./p>
 <p><img src="https://raw.githubusercontent.com/Areebaellahi/FOTOS/main/mailserver.png" alt="Cat"></p>
 <p>Una vegada tot configurat donem a save changes.</p>
-<h2>Generació dels certificats:</h2>
-<p>He decidit crear el certificat amb mkcert.</p>
-<p>Per fer lo posem:</p>
-<p>-sudo apt install libnss3-tools</p>
-<p>-mkcert client.org</p>
-<p>-mkcert server.org</p>
-<p><img src="https://raw.githubusercontent.com/Areebaellahi/FOTOS/main/6.png" alt="Cat"></p>
 
 
